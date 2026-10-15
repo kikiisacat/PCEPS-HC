@@ -1,1 +1,46 @@
+Pedestrian/Cyclist Environment Perception System Plan
 
+What I want to make
+-------------------
+I want to make a wearable that uses a camera and distance sensor to detect what is in front of someone and give feedback through vibration motors.
+
+I'm interested in how self-driving cars combine different sensors, and I want to explore some of those ideas in a smaller wearable project.
+
+
+First phase: breadboard development
+----------------------------------
+Start out with the ESP32-S3, and make the CV model and software first.
+
+Get board working separately, then connect them together on the breadboard and test the software and feedback.
+
+Parts list
+-------------------------------------------------
+- ESP32-S3 board and OV5640 camera.
+- Teyleten Robot TOF400C / VL53L1X distance-sensor breakout.
+- DRV2605L haptic controller boards and Vybronics VG0832009L motors.
+- 520 mAh battery, Blomiky external charger, and Chiffonade TPS61023
+  boost module.
+- Slide switch and a tactile pushbutton from the starter kit.
+- Breadboard and starter-kit parts for testing.
+- iPhone for processing and other features.
+
+
+What I want to investigate
+--------------------------
+The distance sensor can tell me when something is close, while the camera can help identify what it is.
+I want to find out how well the ESP32-S3 can capture and handle the images, and what should be on the phone.
+The haptic feedback should make the information useful without requiring the wearer to look at a screen while walking or biking.
+
+Next steps
+----------
+1. Make code for the ESP32 and check its OV5640 camera connections.
+2. Document the original prototype's results and any additional tests.
+3. Test camera capture, distance readings, and communication with the phone.
+4. Try the kit's feedback parts during breadboard testing, then test the planned haptic controllers and motors.
+5. Check battery, charger compatibility, and the development board's power-input requirements before connecting the power modules.
+6. Measure current draw and, when the battery setup is ready, battery life.
+7. Journal
+
+Later
+----------------------------------
+Once the breadboard tests establish the connections and parts that work, I will design a PCB around that setup and work out how it fits in the frame. Choose the final PCB components and quantities at that point rather than treating them as requirements for the first breadboard tests.

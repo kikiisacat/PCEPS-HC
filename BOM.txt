@@ -1,0 +1,23 @@
+Processor: ESP32-S3
+Camera: OV5640
+Haptic Controller: DRV2605L
+https://www.microcenter.com/product/613668/DRV2605L_Haptic_Motor_Controller?storeID=155 *
+Haptic Motor: Vybronics VG0832009L
+https://www.digikey.com/en/products/detail/vybronics-inc/VG0832009L/16376023 *
+Distance Sensor: Teyleten Robot TOF400C / VL53L1X breakout
+https://www.amazon.com/Teyleten-Robot-TOF400C-VL53L1X-Distance/dp/B0CLDKMGZR/
+Batteries: GNB 520 mAh
+https://www.amazon.com/GNB-JST-PH2-0-Connector-Upgraded-Inductrix/dp/B07QC17GLT *
+Battery Charger: Blomiky external charger
+https://www.amazon.com/Blomiky-3-7V-3-8V-JST-PH2-0-Suitable-Charger/dp/B0BDRRC961 *
+5-V Regulator: Chiffonade TPS61023 boost module
+https://www.amazon.com/Chiffonade-Boost-Module-TPS61023-Chip/dp/B0G24WHPD9/
+Switch: QSYZAIL slide switch
+https://www.amazon.com/QSYZAIL-Switches-Position-SS12D10-SS12D00/dp/B0G6LPV1C8/
+Button: tactile pushbutton from the kit
+https://www.digikey.com/en/products/detail/schurter-inc/1301-9301/7602711
+Breadboard: from the kit
+https://www.digikey.com/en/products/detail/busboard-prototype-systems/BB830/19200392?msockid=26af8f4547936df71609984d46786c3e
+Kit: WWZMDiB component starter kit (testing only)
+https://www.amazon.com/WWZMDiB-Component-Beginner-Starter-Compatible/dp/B0B2HVCDJH
+iPhone: model loading and phone-side features (carried forward)
